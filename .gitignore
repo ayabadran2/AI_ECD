@@ -1,0 +1,21 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets and downloads
+dataset_fire_smoke/
+archive/
+archive.zip
+*.zip
+
+# Training output and model weights
+runs/
+*.pt
+
+# Videos and saved alerts
+*.mp4
+*.avi
+fall_alerts/
+fire_alerts/                                                
