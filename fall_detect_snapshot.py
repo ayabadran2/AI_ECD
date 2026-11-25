@@ -80,7 +80,7 @@ def send_alert_to_backend(event):
  
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--source", default="test_fall_2.mp4", help="video file path, or 0 for the webcam")
+    ap.add_argument("--source", default="06.mp4", help="video file path, or 0 for the webcam")
     ap.add_argument("--weights", default="yolov8n-pose.pt")
     ap.add_argument("--camera-id", default="cam1")
     ap.add_argument("--alerts", default="fall_alerts")
