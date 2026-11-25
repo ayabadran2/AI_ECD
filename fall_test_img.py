@@ -16,11 +16,6 @@ MODE 2 - sequence (--sequence)
   Use --fps to say how many of these frames make up one second of video.
   Add --hardened to apply the edge checks + stale-state reset.
 
-Usage:
-  python fall_image_test.py --source photo.jpg
-  python fall_image_test.py --source frames_folder
-  python fall_image_test.py --source frames_folder --sequence --fps 10
-  python fall_image_test.py --source frames_folder --sequence --fps 10 --hardened
 """
 import argparse
 import math
